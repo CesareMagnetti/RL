@@ -1,9 +1,9 @@
 import torch
 
 
-class QLearning(object):
+class DeepQLearning(object):
     """
-    Q-learning training routine object.
+    Deep Q-learning training routine object.
     """
 
     def __init__(self, gamma, prioritized=False):
@@ -85,9 +85,9 @@ class QLearning(object):
             return loss.mean()
 
 
-class DoubleQLearning(object):
+class DoubleDeepQLearning(object):
     """
-    Double Q-learning training routine object.
+    Double Deep Q-learning training routine object.
     """
 
     def __init__(self, gamma, prioritized=False):
