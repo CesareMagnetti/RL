@@ -26,7 +26,7 @@ class BaseAgent(object):
     ):
         """Initialize agent class
         Params:
-        =========
+        =====
             name (str): name of the experiment.
             trainer (trainer.py instance): a trainer algorithm class (i.e. Q-learning or double-Q-learning).
             action_size (int): number of possible actions, assumes a discrete action space.
